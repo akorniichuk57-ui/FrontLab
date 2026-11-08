@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корнійчук Аліна, ІА-44, Лабораторна робота №6, варіант 9</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Випадковий користувач</h1>
+        <p class="description">
+            Отримання інформації із зовнішнього API у форматі JSON
+        </p>
+
+        <button id="loadButton">Отримати користувача</button>
+
+        <p id="status"></p>
+
+        <div id="userCard" class="user-card hidden">
+            <img id="picture" src="" alt="Фотографія користувача">
+
+            <div class="user-info">
+                <p><strong>Місто:</strong> <span id="city"></span></p>
+                <p><strong>Поштовий індекс:</strong> <span id="postcode"></span></p>
+                <p><strong>Мобільний телефон:</strong> <span id="cell"></span></p>
+                <p><strong>Ім'я та прізвище:</strong> <span id="name"></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
